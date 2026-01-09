@@ -9,13 +9,14 @@
     font-family: "Inter", sans-serif;
 }
 
+/* shared style */
 .btn {
     background-color: #30B868;
     color: white;
     font-size: 16px;
     font-weight: 600;
     padding: 12px 16px;
-    border:none;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
 
@@ -25,6 +26,19 @@
     background-color: #F95555;
 }
 
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.description {
+    color: #627382;
+}
+
+main>section {
+    margin: 120px;
+}
 
 /* navbar section style start*/
 .navbar {
@@ -91,33 +105,97 @@
     margin-bottom: 16px;
 }
 
-.banner-dsc{
+.banner-dsc {
     font-size: 18px;
     color: rgb(211, 205, 205);
     line-height: 34px;
     margin-bottom: 32px;
 }
 
-.banner-btns{
+.banner-btns {
     display: inline-flex;
     gap: 16px;
 }
 
 .build-btn,
-.play-btn{
+.play-btn {
     border: 1px solid transparent;
 }
 
 .build-btn:hover,
-.play-btn:hover{
+.play-btn:hover {
     background: transparent;
     border: 1px solid white;
 }
 
-.fa-arrow-right{
-    padding-left:10px ;
+.fa-arrow-right {
+    padding-left: 10px;
 }
 
-.fa-play{
+.fa-play {
     padding-right: 10px;
+}
+
+/* notes section style start */
+.notes {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 44px;
+    /* gap: 24px; */
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 16px;
+    border-bottom: none;
+    box-shadow:  0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    padding: 40px 20px;
+
+}
+
+.card-img img {
+    background-color: #F95555;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.card-title {
+    font-size: 24px;
+    padding: 16px 0;   
+}
+
+/* secound brain section style start- */
+
+.barain-struct{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    
+}
+
+.brain-content .brain-subTitile{
+    color: #30B868;
+}
+
+.brain-dsc{
+    padding: 16px 0 40px;
+}
+
+.check-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.list{
+    display: flex;
+    gap: 10px;
+
 }
