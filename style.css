@@ -199,3 +199,24 @@ main>section {
     gap: 10px;
 
 }
+
+/* think more section style start */
+.think-more{
+    text-align: center;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    
+}
+
+.think-more-content{
+    padding: 80px;
+}
+
+.think-dsc{
+    margin-bottom: 24px;
+}
+
+.sub-dsc{
+    display: block;
+    margin-top: 16px;
+}
