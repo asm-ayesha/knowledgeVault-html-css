@@ -220,3 +220,41 @@ main>section {
     display: block;
     margin-top: 16px;
 }
+
+/* footer section style start */
+footer{
+    background-color: #001931;
+    padding: 120px 0 30px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-titile{
+    font-size: 20px;
+    font-weight: 500;
+    color: #F7F6F2;
+}
+.social-links{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.link{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+
+.footer-copy{
+    color: #F7F6F2;
+    text-align: center;
+    padding-top: 30px;
+    margin:  80px 400px;
+     border-top: 2px solid #1c3146;
+}
